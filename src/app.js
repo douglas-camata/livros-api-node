@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const pool = require('./db');
+const path = require('path'); 
 
 const livrosRoutes = require('./routes/livros')
 
